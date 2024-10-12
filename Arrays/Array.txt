@@ -2,11 +2,11 @@
 What is an Array?
 =================
 An array is a data structure that stores a fixed-size sequence of elements of the same type. 
-Arrays are used to store collections of data, but unlike some other data structures, they are indexed,
+Arrays.Arrays are used to store collections of data, but unlike some other data structures, they are indexed,
 meaning each element in the array can be accessed via its index (position). 
 In most programming languages, the array index starts from 0.
 
-Key Characteristics of Arrays: 
+Key Characteristics of Arrays.Arrays:
 ==============================
 Fixed Size: Once an array is created, it cannot change its size. You define the size of an array when you create it, and it remains constant throughout.
 Indexed Access: Each element in an array can be accessed by its index. For example, in an array arr, the first element is accessed by arr[0], the second by arr[1], and so on.
@@ -14,9 +14,9 @@ Homogeneous Elements: All elements in an array are of the same data type (e.g., 
 
 Memory Representation:
 ======================
-Arrays are stored in contiguous memory locations. This means that the elements of an array are placed sequentially in memory, making array access faster and efficient.
+Arrays.Arrays are stored in contiguous memory locations. This means that the elements of an array are placed sequentially in memory, making array access faster and efficient.
 
-Types of Arrays:
+Types of Arrays.Arrays:
 ================
 1) One-dimensional Array (1D): A linear collection of elements.
   ex: int[] arr = {1, 2, 3, 4, 5};  // 1D array
@@ -28,7 +28,7 @@ Types of Arrays:
     {7, 8, 9}
 };  // 2D array (3x3 matrix)
 
-3) Multidimensional Array: Arrays of more than two dimensions, used in complex data structures like 3D grids.
+3) Multidimensional Array: Arrays.Arrays of more than two dimensions, used in complex data structures like 3D grids.
   ex: int[] scores = new int[5];  // Create an array of size 5
 
 // Assigning values to the array
@@ -47,7 +47,7 @@ for (int i = 0; i < scores.length; i++) {
 }
 
 
-Operations on Arrays:
+Operations on Arrays.Arrays:
 =====================
 Traversal:
 Looping through each element in the array.
@@ -77,5 +77,5 @@ Binary Search: Used for sorted arrays, divides the search space in half with eac
 
 
 Summary:
-Arrays are a simple yet powerful data structure that allows you to store and manipulate multiple elements of the same type in an indexed manner.
+Arrays.Arrays are a simple yet powerful data structure that allows you to store and manipulate multiple elements of the same type in an indexed manner.
 They are efficient for accessing elements but have limitations, like fixed size and costly insertion/deletion operations.
